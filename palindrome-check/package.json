@@ -1,0 +1,14 @@
+{
+  "name": "palindrome-check",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen Handy",
+  "license": "ISC",
+  "description": "Palindrome Check",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
