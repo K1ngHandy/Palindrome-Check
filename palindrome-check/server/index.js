@@ -6,9 +6,11 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Enable CORS for all requests
-app.use(cors({
-	origin: ['https://your-frontend-domain.com'], // Replace with your frontend domain
-));
+app.use(
+	cors({
+		origin: ['https://your-frontend-domain.com'], // Replace with your frontend domain
+	})
+);
 
 // Parse JSON request body
 app.use(express.json());

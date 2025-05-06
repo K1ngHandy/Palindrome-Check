@@ -10,8 +10,10 @@
   "author": "Stephen Handy",
   "license": "ISC",
   "dependencies": {
+    "@sentry/react": "^9.15.0",
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "winston": "^3.17.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.3"
